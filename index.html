@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Solway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+    <title>Reguler Expression</title>
+  </head>
+  <body>
+    <!-- Start header -->
+    <header class="top-header">
+      <nav class="navbar header-nav navbar-expand-lg">
+          <div class="container-fluid">
+            <nav class="navbar ">
+              <span class="navbar-brand mb-0 h1">Kamtina Musyfirah</span>
+            </nav>
+
+              <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                  <ul class="navbar-nav">
+                      <li><a class="nav-link active" href="#">Home</a></li>
+                      <li><a class="nav-link" href="https://kamtinamusyfirah.github.io/tba-assignment1/">Teori Bahasa dan Otomata</a></li>
+                      <li><a class="nav-link" href="https://kamtinamusyfirah.github.io/tba-assignment2/">Notasi Big O</a></li>
+                      <li><a class="nav-link" href="#">DFA</a></li>
+                      <li><a class="nav-link" href="#">Regular Expression</a></li>
+                      <li><a class="nav-link" href="#">About</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  </header>
+  <!-- End header -->
+
+  <!--Carousel-->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Teori Bahasa dan Otomata</h1>
+    </div>
+  </div>
+  <!--End Carousel-->
+  <h1>Regular Expression</h1>
+
+  <!-- section -->
+  <div class="container">
+    <div class="card">
+        <div class="contentBx">
+            <h2>Reguler Expression (Regex)</h2>
+            <p>
+              Regex adalah singkatan dari Regular Expresion.
+            </p>
+            <p>
+              Regex merupakan sebuah teks (string) yang mendefinisikan sebuah pola pencarian sehingga dapat membantu kita untuk melakukan matching (pencocokan), locate (pencarian), dan manipulasi teks.
+            </p>
+            <p>
+              Konsep tentang regex pertamakali muncul di tahun 1951, ketika seorang ilmuan matematikan bernama Stephen Cole Kleene memformulasikan definisi tentang bahasa formal.
+              Kemudian konsep ini diadopsi di beberapa program dan menjadi umum digunakan pada program pemeroses teks seperti sed, awk, grep, dll.
+            </p>
+            <p>
+              Regex memudahkan kita untuk memanipulasi teks, tapi juga kadang berbahaya.. karena bisa mengubah teks yang tidak kita inginkan.
+              Biasanya itu terjadi karena kesalahan pola yang diberikan.
+            </p>
+            <img src="regex.PNG" alt="" style="margin-left: 80px;">
+        </div>
+    </div>
+
+    <div class="card">
+      <div class="contentBx">
+          <h2>Pemanfaatan Regex</h2>
+          <p>
+            <ol>
+              <li>Validasi Data
+                <p>regex digunakan untuk matching atau pencocokan teks. Pertama-tama, kita harus mendefinisikan pola regex untuk data yang valid. 
+                  Kemudian, kita lakukan pencocokan dengan pola tersebut.</p>
+              </li>
+              <li>Pencarian
+                <p>
+                  Contoh penerapan regex untuk pencarian sebenarnya hampir sama dengan validasi data. Pola regex dimasukan dalam kata kunci, lalu dicocokan dengan database atau teks.
+                  Program grep (globally search for a regular expression and print matching lines) biasanya kita temukan di sistem operasi Unix dan Linux, bahkan ini menjadi program yang selalu ada di setiap distro Linux.
+                  Program grep melakukan pencarian berdasarkan pola regex yang diberikan, lalu mencetak output hasilnya.
+                </p>
+
+              </li>
+              <li>Find and Replace
+                <p>
+                  Salah satu manfaat regex adalah find and replace. Fitur ini membantu untuk mengelola teks dan konten lebih efisien.
+                  jika ingin mengubah beberapa teks di semua konten dan dilakukan satu-per-satu secara manual, tentu ini akan menguras banyak waktu dan tenaga.
+                  Dengan regex, kita bisa melakukannya dalam hitungan detik. Cukup bikin pola pencarian dan pola untuk mengubahnya (subtitusi).
+                </p>
+              </li>
+            </ol>
+          </p>
+      </div>
+    </div>
+
+  <div class="about1">
+    <h2>ABOUT</h2>
+    <hr>
+  </div>
+
+  <div class="about">
+    <div class="box">
+      <div class="icon">
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+      </div>
+      <div class="details">
+        <h3>Sinjai</h3>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="icon">
+        <i class="fa fa-github" aria-hidden="true"></i>
+      </div>
+      <div class="details">
+        <h3>KamtinaMusyfirah</h3>
+      </div>
+    </div>
+    
+    <div class="box">
+      <div class="icon">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+      </div>
+      <div class="details">
+        <h3>kamtinamusyfirah12@gmail.com</h3>
+      </div>
+    </div>
+  </div>
+  <!-- end section -->
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
